@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Compression Tool</title>
+    <link rel="stylesheet" href="audio style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Compression Tool</h1>
+        <input type="file" id="audioInput" accept="audio/*">
+        <button id="compressButton">Compress Audio</button>
+        <h2>Before Compression</h2>
+        <p id="originalSize"></p>
+        <audio id="originalAudio" controls></audio>
+        <h2>After Compression</h2>
+        <p id="compressedSize"></p>
+        <audio id="compressedAudio" controls></audio>
+    </div>
+    <script src="audio script.js"></script>
+</body>
+</html>
